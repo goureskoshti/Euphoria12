@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  height: 120vh;
+}
+.logo {
+    color: black;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 600;
+    word-wrap: break-word;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+span {
+    color: red;
+}
+
+.Hero {
+    text-align: center;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 50px;
+    font-family: Poppins;
+    font-weight: 700;
+
+}
+
+span {
+    color: red;
+}
+
+.element {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+
+}
+
+#img {
+    position: absolute;
+    align-items: center;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.method {
+    position: absolute;
+    top: 55%;
+    left: 17.4%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.submethod {
+    position: absolute;
+    top: 58%;
+    left: 26.25%;
+    transform: translate(-50%, -50%);
+    color: #747171;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 500;
+
+}
+
+.flex-container {
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 12.5%;
+    display: flex;
+    width: 60%;
+    height: 20%;
+}
+
+
+.flex-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #525863;
+    font-size: 7px;
+    font-family: Poppins;
+    font-weight: 500;
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    background: rgba(255, 232.05, 232.05, 0.24);
+    border-radius: 6px;
+    border: 1px rgba(255, 25.50, 25.50, 0.69) solid;
+    padding-left: 60px;
+
+}
+
+/* .flex-item:hover {
+    background: linear-gradient(to bottom, #ff3737, #ff6969);
+  }
+  
+  .flex-item:hover.flex-item {
+    background: linear-gradient(to bottom, #ff3737, #ff6969);
+    color: #ffffff;
+  } */
+
+
+
+input[type="radio"] {
+    margin-right: 5px;
+    accent-color: red;
+    /* Set the accent color to red */
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    border: 2px solid red;
+    /* Add a red border to the checked radio button */
+}
+
+input[type="radio"]:checked::before {
+    background-color: red;
+    /* Set the checkmark color to red */
+}
+
+label {
+    margin-right: 75px;
+    /* Add a bottom margin of 15px to the labels */
+}
+
+
+.flex-container:nth-child(1) {
+    position: absolute;
+    margin-bottom: 10px;
+    /* Add some space between the two flex items */
+}
+
+
+
+.flex-containerX {
+
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 50.5%;
+    display: flex;
+    width: 60%;
+    height: 20%;
+}
+
+.flex-itemX {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #525863;
+    font-size: 10px;
+    font-family: Poppins;
+    font-weight: 500;
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    background: rgba(255, 232.05, 232.05, 0.24);
+    border-radius: 6px;
+    border: 1px rgba(255, 25.50, 25.50, 0.69) solid;
+    padding-left: 85px;
+    ;
+}
+
+/* .flex-containerX:nth-child(1) {
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+.flex-containerX.flex-itemX input[type="radio"] {
+    margin-right: 5px;
+    accent-color: red;
+    cursor: pointer;
+  }
+  
+  .flex-containerX.flex-itemX input[type="radio"]:checked {
+    border: 2px solid red;
+  }
+  
+  .flex-containerX.flex-itemX input[type="radio"]:checked::before {
+    background-color: red;
+  }
+  
+  .flex-containerX.flex-itemX label {
+    margin-right: px;
+  } */
+
+  .summary {
+    position: absolute;
+    top: 85%;
+    left: 16.60%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.subsummary {
+    position: absolute;
+    top: 88%;
+    left: 23.20%;
+    transform: translate(-50%, -50%);
+    color: #747171;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 500;
+
+}
+
+.input-container {
+  margin-top: 5%;
+    position: absolute;
+    top: 90%;
+    left: 50.7%;
+    display: flex;
+    width: 27%;
+    height: 40px;
+    background: rgba(255, 0, 0, 0.5);
+    border-radius: 25px;
+    border: 1px solid rgba(255, 0, 0, 0.5);
+  }
+  
+  #transactionId {
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 0, 0, 0.5);
+    border: none;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  ::placeholder {
+    font-size: 10px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .list-container {
+    position: absolute;
+    top: 90.5%;
+    left: 12.25%;
+    display: flex;
+    width: 300px;
+    height: 110px;
+    background: rgba(255, 0, 0, 0.035);
+    border: 1px solid rgba(255, 0, 0, 0.5);
+    border-radius: 6px;
+    font-family: Poppins;
+    font-size: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding-left: 20px;
+  }
+  
+  li {
+    border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+#amt{
+  width: 150px;
+  height: 150px;
+  margin-left: 55%;
+  margin-top: 27%;
+}
+#scan{
+  margin-left: 56.5%;
+}
+#btn {
+  width: 90px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgba(233, 4, 4, 0.82);
+  color : #fff;
+  text-transform: uppercase;
+  margin-left: 50.75%;
+  transition: 0.5s;
+  margin-top: 7%;
+}

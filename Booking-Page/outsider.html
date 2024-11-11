@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="login" content="" />
+  <link rel="stylesheet" href="./styles/home.css" />
+  <title>Home</title>
+</head>
+
+<body>
+  <div class="title-design" id="navbar">
+    <img src="../Euphoria/assets/Asset 1@2x.png" alt="" style="width: 90px; height: 55px; padding-left: 1%;
+    padding-bottom: 2%;">
+  </div>
+  <div class="grab">
+    <h1 id="grab2" style="font-size: 50px; color: rgb(58, 53, 53); text-shadow: 1px 1px white;" >Grab your passes soon!!</h1>
+  </div>
+  <div class="container">
+    <form class="form" id="detailForm">
+      <!-- name -->
+      <!-- ticket count -->
+      <div class="form-class">
+        <div class="one-1">
+          <label id="l1" for="name">Your Name:</label>
+          <input id="name" name="firstname" class="ipstyle" type="text" placeholder="Enter your name" style="
+                padding-left: 10px;
+                margin-top: 5px;
+                overflow: hidden; " />
+        </div>
+        <br>  
+        <div class="one-2">
+          <label id="l2" for="numberTicket">Number of Pass:</label>
+          <input id="numberTicket" name="subject" class="ipstyle" type="number" placeholder="Group members" style="
+                padding-left: 10px;
+                margin-top: 5px;
+                overflow: hidden;
+              " />
+        </div>
+      </div>
+      <!--  -->
+      
+      <div class="form-class">
+        <div class="one-1">
+          <label id="l3" for="chooseevent">Choose Event:</label>
+          <select id="chooseevent" class="ipstyle" style="
+                width: 360px;
+                padding-left: 10px;
+                margin-top: 5px;
+                overflow: hidden;
+              ">
+            <option>Choose Event</option>
+            <option>Spandan Day 1</option>
+            <option>Spandan Day 2</option>
+            <option>Spandan Day 3</option>
+            <option>SPANDAN Full Event</option>
+            <option>Raas Rang</option>
+            <option>SVVV MUN</option>
+            <option>Ambriti</option>
+            <option>Udhyamita</option>
+            <option>Abhinandan</option>
+            <option>Moot Court</option>
+            <option>DJ Night</option>
+            <option>Arijit Concert</option>
+          </select>
+        </div>
+        <div class="one-2">
+          <label id="l4" for="eventDetails">Event Date:</label>
+          <input id="eventDetails" class="ipstyle" type="text" class="form-control" placeholder="Fetching dates of Event..." style="
+                padding-left: 10px;
+                margin-top: 5px;
+                overflow: hidden;
+              " maxlength="0" />
+        </div>
+      </div>
+      <!--  -->
+      <!-- seat number -->
+      <!-- fare -->
+      <div class="form-class">
+        <div class="equal">
+          <label id="l5" for="fare">Amount in ₹: </label>
+          <input id="fare"  type="text" class="ipstyle" class="form-control" placeholder="Generating Total Fare....." style="
+                border: none;
+                width: 350px;
+                height: 50px;
+                padding-left: 10px;
+                margin-top: 5px;
+                overflow: hidden;
+                border: 1px solid silver;
+                /* border-radius: 5px; */
+              " maxlength="0" />
+        </div>
+        <div class="one-2">
+          <label id="l6" for="eventdetails" style="margin-left: 72px;">Email:</label>
+          <input class="ipstyle" name="email" id="mob" type="email" placeholder="Enter your gmail" style="
+                padding-left: 10px;
+                margin-top: 5px;
+                margin-left: 72px;
+              "/>
+        </div>
+      </div>
+      <br>
+      <!--  buttons -->
+      <div class="form-class">
+        <div class="btn-each">
+          <button id="clear_all" class="btn-each-main" style="background-color:#f51616; color: white">
+            Clear All
+          </button>
+        </div>
+        <div class="btn-each">
+          <button id="check_fares" class="btn-each-main" style="background-color: #f51616; color: white">
+            Check Events
+          </button>
+        </div>
+        <div class="btn-each">
+          <button
+            id="refund_amount"
+            class="btn-each-main"
+            style="background-color: #f51616; color: white"
+          >
+          Save Details
+          </button>
+        </div>
+        <div class="btn-each"> 
+          <button id="book_ticket" class="btn-each-main" type="submit" style="background-color: #f51616; color: white">
+         <!-- <a href="../Payment/pay.html" style="background-color: rgb(242, 88, 88); color: white"> Pay Now </a>  -->
+            Pay Now
+          </button> 
+        </div>
+      </div>
+      <!--  buttons -->
+    </form>
+  </div>
+  
+  
+
+</body>
+<!--
+<script type = "module" src="./backend/bookingdb.js"></script>
+
+<script type="text/javascript" src="./backend/home.js"></script>
+-->
+<script type="module" src="./backend/Outsidebooking.js"></script>
+</html>

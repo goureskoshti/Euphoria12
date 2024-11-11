@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins' , sans-serif;
+}
+body {
+  background-color:white;
+}
+.title-design {
+  width: 100%;
+  height: 40px;
+  background-color:#f51616;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.title-design-title {
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.grab {
+  width: 800px;
+  height: 70px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
+.container {
+  margin-top: 40px;
+  width: 100%;
+  height: 350px;
+}
+.form {
+  margin: auto;
+  width: 60%;
+  height: 100%;
+}
+.form-class {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  margin-top: 15px;
+}
+.ipstyle {
+  width: 350px;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.one-1 {
+  width: 60%;
+  height: 100%;
+  padding-top: 5px;
+  margin-right: 5px;
+}
+.one-2 {
+  width: 40%;
+  height: 100%;
+  padding-top: 5px;
+}
+.equal {
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  padding-top: 5px;
+}
+.btn-each {
+  width: 25%;
+  height: 50px;
+  text-align: center;
+  margin-top: 5px;
+  margin: 10px;
+}
+.btn-each-main {
+  width: 100%;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 8px;
+}
+.btn-each-main:hover {
+  text-decoration: underline;
+  color: transparent;
+}
+
+.marquee {
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  margin-top: 80px;
+  padding-top: 10px;
+}
+.marq-design {
+  color: white;
+}
